@@ -14,6 +14,7 @@ function analyze() {
 
 document.getElementById('clearBtn').addEventListener('click', function() {
     document.getElementById('tokens').innerHTML = '';
+    document.getElementById('input').innerHTML = '';
 });
 
 
