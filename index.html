@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lexical Analyzer</title>
+  </head>
+  <body>
+    <div class="container">
+        <h2 class="topheading">
+            This tool breaks your code into small parts (tokens) like keywords,
+            numbers, strings, and symbols.You can see each tokens type and value
+            in the scrollable result box.
+        </h2>
+        <div class="leftdiv">
+            <h1 class="lfthead">Lexical Analyzer</h1>
+            <textarea id="input" placeholder="Enter code here..."></textarea>
+            <button onclick="analyze()">See Tokens</button>
+        </div>
+        <div class="rightdiv">
+            <h2 class="rgthead">Token Box :</h2>
+            <div id="tokens" class="tokens" ></div>
+            <button id="clearBtn" class="clearBtn">Clear box</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
